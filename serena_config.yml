@@ -1,0 +1,16 @@
+gui_log_window: False
+web_dashboard: False
+web_dashboard_open_on_launch: False
+log_level: 20
+trace_lsp_communication: False
+ls_specific_settings: {}
+tool_timeout: 240
+excluded_tools: []
+included_optional_tools: []
+jetbrains: False
+default_max_tool_answer_chars: 150000
+token_count_estimator: CHAR_COUNT
+
+projects:
+  - path: /workspace/kawaiigpt
+    name: kawaiigpt
